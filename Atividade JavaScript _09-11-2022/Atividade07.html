@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+</head>
+<body>
+    <script>
+
+
+        let produto= prompt ("Digite o nome produto: ")
+        let valor= prompt (" Digite o valor do produto: ")
+        let juros= prompt("Digite o valor do imposto:")
+        let parcelas = prompt ("Digite o valor do Distribuidor:")
+
+        juros = (Number(valor)+ Number (juros)/ 100);
+        let valorParcelas= (Number(juros) + Number (valor));
+        let valorTotalParcelas = valorParcelas * parcelas
+
+        window.document.write (`produto: ${produto} </br>`);
+        window.document.write (`valor total: ${valorTotalParcelas} </br>`)
+    </script>
+    
+</body>
+</html>

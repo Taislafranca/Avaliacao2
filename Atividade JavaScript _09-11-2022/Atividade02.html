@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1 style="color: red">
+            Calcular hora!!
+    </h1>
+    <form action="">
+        <input type="text" id="hora" name="hora">
+        <input type="submit" value="Calcular" onclick="handleSubmit()"  >
+      </form>
+
+      <span id="result"></span>
+    <script type="text/javascript">
+     
+
+    var input = document.querySelector("hora");
+    
+
+        function handleSubmit() {
+            n = document.getElementById("hora").value
+            console.log("hora", n)
+            ConvertHours(n)
+        }
+
+    function ConvertHours(n) {
+        var minutes, seconds;
+ 
+        minutes = n * 60;
+        seconds = n * 3600;
+ 
+        document.write(" RESPOSTA : Minutes = " + minutes + ", Seconds = " + seconds);
+    }
+
+
+
+ 
+    </script>
+</body>
+
+</html>

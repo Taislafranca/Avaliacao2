@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 03</title>
+</head>
+<body>
+    <script>
+        let loja= prompt ('Qual é o nome da loja:')
+        let mes1= prompt ('Qual o valor total de vendas em janeiro:')
+        let mes2= prompt ('Qual o valor total de vendas em fevereiro:')
+        let mes3= prompt ('Qual o valor total de vendas em março:')
+        let mes4= prompt ('Qual o valor total de vendas em abril:')
+        let mes5= prompt ('Qual o valor total de vendas em maio:')
+        let mes6= prompt ('Qual o valor total de vendas em junho:')
+        let mes7= prompt ('Qual o valor total de vendas em julho:')
+        let mes8= prompt ('Qual o valor total de vendas em Agosto:')
+        let mes9= prompt ('Qual o valor total de vendas em setembro:')
+        let mes10= prompt ('Qual o valor total de vendas em outubro:')
+        let mes11= prompt ('Qual o valor total de vendas em novembro:')
+        let mes12= prompt ('Qual o valor total de vendas em dezembro:')
+       
+        
+        let vendas= parseFloat (mes1) + parseFloat (mes2) + parseFloat (mes3)+ parseFloat (mes4)+ parseFloat (mes5)+ parseFloat (mes6)+ parseFloat (mes7)+ parseFloat (mes8)+ parseFloat (mes9)+ parseFloat (mes10)+ parseFloat (mes11)+ parseFloat (mes12);
+        let semestre = 2;
+       
+
+        window.document.write('Nome da loja:' + loja + '</br>') ; 
+        window.document.write('vendas totais em um ano: ' +  vendas + '</br>' );  
+        window.document.write('vendas no semestre:' + vendas/ semestre);
+    </script>
+    
+</body>
+</html>

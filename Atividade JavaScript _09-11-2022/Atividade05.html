@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+
+    <script>
+        let hot= 1
+        let chese= 1.50;
+        let Hambur= 1.30;
+        let refri= 1;
+        let batata= 0.80
+        let Cliente = prompt("Digite o nome do cliente:");
+        let Hotdog = prompt("Digite a quantidade de Hotdog:");
+        let Cheese = prompt("Digite a quantidade de Cheese:");
+        let Hamburguer = prompt("Digite a quantidade de Hamburguer:");
+        let Refrigerante = prompt("Digite a quantidade de refrigerante:");
+        let Batatafrita = prompt("Digite a quantidade de Batata frita:");
+
+let Hot = (Hotdog * hot)
+let Cee = (Cheese * chese)
+let Hau = (Hamburguer * Hambur)
+let Ref = (Refrigerante * refri)
+let Baba = (Batatafrita * batata)
+let total = (Number(Hot)+ Number(Cee)+ Number(Hau)+ Number(Ref)+ Number(Baba))
+
+window.document.write(`Cliente: ${Cliente} </br>`);
+window.document.write(`Hotdog: ${Hot} </br>`);
+window.document.write(`Chesse: ${Cee} </br>`);
+window.document.write(`Hamburguer: ${Hau} </br>`);
+window.document.write(`Refrigerante: ${Ref} </br>`);
+window.document.write(`BatataFrita: ${Baba} </br>`);
+window.document.write(`Valor Total: ${total} </br>`);
+
+    
+    </script>
+    
+</body>
+</html>
